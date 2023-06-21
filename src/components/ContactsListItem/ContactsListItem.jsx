@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './ContactsListItem.module.css';
 
-const ContactsListItem = ({ contactId, name, number, onDeleteContact }) => {
+function ContactsListItem({ contactId, name, number, onDeleteContact }) {
     return (
         <li className={css.contacts_list_item}>
             <p className={css.contact}>{name}: {number}</p>
