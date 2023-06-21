@@ -1,0 +1,11 @@
+.contacts_list_item {
+    display: flex;
+    align-items: center;
+}
+.contact {
+    margin-right: 10px;
+}
+
+.button {
+    cursor: pointer;
+}
